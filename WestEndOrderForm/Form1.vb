@@ -40,7 +40,13 @@
     Private Sub ClearCustomerSelections() 'for each new customer
         chkCheese.Checked = False
         chkTomato.Checked = False
+        chkMozzSticks.Checked = False
+        chkFries.Checked = False
+
         radWater.Checked = True
+        radWater.Checked = False
+        radRibeyeSandwich.Checked = True
+        radRibeyeSandwich.Checked = False
     End Sub
 
     Private Sub ClearReceipt()
@@ -72,6 +78,19 @@
             Dim PubBurgerItem As String = _
                 PRICE_PUB_BURGER.ToString("C") & " - Pub Burger"
             lstOrderReceipt.Items.Add(PubBurgerItem)
+        End If
+
+        If chkCheese.Checked Then
+            subtotal += PRICE_CHEESE
+            Dim CheeseItem As String = _
+                PRICE_CHEESE.ToString("C") & " - Cheese"
+            lstOrderReceipt.Items.Add(CheeseItem)
+        End If
+        If chkTomato.Checked Then
+            subtotal += PRICE_TOMATO
+            Dim TomatoItem As String = _
+                PRICE_TOMATO.ToString("C") & " - Tomato"
+            lstOrderReceipt.Items.Add(TomatoItem)
         End If
 
         If radWater.Checked Then
@@ -111,20 +130,7 @@
                 PRICE_MOZZARELLA_STICKS.ToString("C") & " - Mozzarella Sticks"
             lstOrderReceipt.Items.Add(MozzSticksItem)
         End If
-        'Finish adding the prices for the drinks and the sides
-
-        If chkCheese.Checked Then
-            subtotal += PRICE_CHEESE
-            Dim CheeseItem As String = _
-                PRICE_CHEESE.ToString("C") & " - Cheese"
-            lstOrderReceipt.Items.Add(CheeseItem)
-        End If
-        If chkTomato.Checked Then
-            subtotal += PRICE_TOMATO
-            Dim TomatoItem As String = _
-                PRICE_TOMATO.ToString("C") & " - Tomato"
-            lstOrderReceipt.Items.Add(TomatoItem)
-        End If
+        
     End Sub
 
     Private Sub UpdateTotal()
