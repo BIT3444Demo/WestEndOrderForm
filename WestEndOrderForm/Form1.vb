@@ -1,4 +1,4 @@
-﻿Public Class frmWestEndOrder
+﻿Public Class frmWestEndOrderx
 
     ' Class level constants as decimal values
     Const TAX_RATE As Decimal = 0.0875D '8.75% tax rate
@@ -130,7 +130,7 @@
                 PRICE_MOZZARELLA_STICKS.ToString("C") & " - Mozzarella Sticks"
             lstOrderReceipt.Items.Add(MozzSticksItem)
         End If
-        
+
     End Sub
 
     Private Sub UpdateTotal()
