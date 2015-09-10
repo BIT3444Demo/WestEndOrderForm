@@ -24,23 +24,23 @@ Partial Class frmWestEndOrderx
     Private Sub InitializeComponent()
         Me.lblTitle = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.radRibeyeSandwich = New System.Windows.Forms.RadioButton()
-        Me.radLobster = New System.Windows.Forms.RadioButton()
-        Me.radHokieClub = New System.Windows.Forms.RadioButton()
-        Me.radPubBurger = New System.Windows.Forms.RadioButton()
-        Me.chkCheese = New System.Windows.Forms.CheckBox()
         Me.chkTomato = New System.Windows.Forms.CheckBox()
+        Me.chkCheese = New System.Windows.Forms.CheckBox()
+        Me.radPubBurger = New System.Windows.Forms.RadioButton()
+        Me.radHokieClub = New System.Windows.Forms.RadioButton()
+        Me.radLobster = New System.Windows.Forms.RadioButton()
+        Me.radRibeyeSandwich = New System.Windows.Forms.RadioButton()
         Me.btnOrder = New System.Windows.Forms.Button()
         Me.btnClear = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.radWater = New System.Windows.Forms.RadioButton()
-        Me.radSoda = New System.Windows.Forms.RadioButton()
-        Me.radJuice = New System.Windows.Forms.RadioButton()
         Me.radSmoothie = New System.Windows.Forms.RadioButton()
+        Me.radJuice = New System.Windows.Forms.RadioButton()
+        Me.radSoda = New System.Windows.Forms.RadioButton()
+        Me.radWater = New System.Windows.Forms.RadioButton()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.chkFries = New System.Windows.Forms.CheckBox()
         Me.chkMozzSticks = New System.Windows.Forms.CheckBox()
+        Me.chkFries = New System.Windows.Forms.CheckBox()
         Me.lstOrderReceipt = New System.Windows.Forms.ListBox()
         Me.lstTotal = New System.Windows.Forms.ListBox()
         Me.GroupBox1.SuspendLayout()
@@ -54,7 +54,7 @@ Partial Class frmWestEndOrderx
         Me.lblTitle.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitle.Location = New System.Drawing.Point(13, 13)
         Me.lblTitle.Name = "lblTitle"
-        Me.lblTitle.Size = New System.Drawing.Size(366, 39)
+        Me.lblTitle.Size = New System.Drawing.Size(356, 38)
         Me.lblTitle.TabIndex = 0
         Me.lblTitle.Text = "West End Order Form"
         '
@@ -74,38 +74,25 @@ Partial Class frmWestEndOrderx
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Food"
         '
-        'radRibeyeSandwich
+        'chkTomato
         '
-        Me.radRibeyeSandwich.AutoSize = True
-        Me.radRibeyeSandwich.Location = New System.Drawing.Point(7, 33)
-        Me.radRibeyeSandwich.Name = "radRibeyeSandwich"
-        Me.radRibeyeSandwich.Size = New System.Drawing.Size(186, 21)
-        Me.radRibeyeSandwich.TabIndex = 0
-        Me.radRibeyeSandwich.TabStop = True
-        Me.radRibeyeSandwich.Text = "$7.50 - Ribeye Sandwich"
-        Me.radRibeyeSandwich.UseVisualStyleBackColor = True
+        Me.chkTomato.AutoSize = True
+        Me.chkTomato.Location = New System.Drawing.Point(7, 196)
+        Me.chkTomato.Name = "chkTomato"
+        Me.chkTomato.Size = New System.Drawing.Size(156, 21)
+        Me.chkTomato.TabIndex = 5
+        Me.chkTomato.Text = "$0.20 - Add Tomato"
+        Me.chkTomato.UseVisualStyleBackColor = True
         '
-        'radLobster
+        'chkCheese
         '
-        Me.radLobster.AutoSize = True
-        Me.radLobster.Location = New System.Drawing.Point(7, 61)
-        Me.radLobster.Name = "radLobster"
-        Me.radLobster.Size = New System.Drawing.Size(134, 21)
-        Me.radLobster.TabIndex = 1
-        Me.radLobster.TabStop = True
-        Me.radLobster.Text = "$22.00 - Lobster"
-        Me.radLobster.UseVisualStyleBackColor = True
-        '
-        'radHokieClub
-        '
-        Me.radHokieClub.AutoSize = True
-        Me.radHokieClub.Location = New System.Drawing.Point(7, 89)
-        Me.radHokieClub.Name = "radHokieClub"
-        Me.radHokieClub.Size = New System.Drawing.Size(146, 21)
-        Me.radHokieClub.TabIndex = 2
-        Me.radHokieClub.TabStop = True
-        Me.radHokieClub.Text = "$6.50 - Hokie Club"
-        Me.radHokieClub.UseVisualStyleBackColor = True
+        Me.chkCheese.AutoSize = True
+        Me.chkCheese.Location = New System.Drawing.Point(7, 168)
+        Me.chkCheese.Name = "chkCheese"
+        Me.chkCheese.Size = New System.Drawing.Size(156, 21)
+        Me.chkCheese.TabIndex = 4
+        Me.chkCheese.Text = "$0.50 - Add Cheese"
+        Me.chkCheese.UseVisualStyleBackColor = True
         '
         'radPubBurger
         '
@@ -118,25 +105,38 @@ Partial Class frmWestEndOrderx
         Me.radPubBurger.Text = "$5.00 - Pub Burger"
         Me.radPubBurger.UseVisualStyleBackColor = True
         '
-        'chkCheese
+        'radHokieClub
         '
-        Me.chkCheese.AutoSize = True
-        Me.chkCheese.Location = New System.Drawing.Point(7, 168)
-        Me.chkCheese.Name = "chkCheese"
-        Me.chkCheese.Size = New System.Drawing.Size(156, 21)
-        Me.chkCheese.TabIndex = 4
-        Me.chkCheese.Text = "$0.50 - Add Cheese"
-        Me.chkCheese.UseVisualStyleBackColor = True
+        Me.radHokieClub.AutoSize = True
+        Me.radHokieClub.Location = New System.Drawing.Point(7, 89)
+        Me.radHokieClub.Name = "radHokieClub"
+        Me.radHokieClub.Size = New System.Drawing.Size(160, 21)
+        Me.radHokieClub.TabIndex = 2
+        Me.radHokieClub.TabStop = True
+        Me.radHokieClub.Text = "$6.50 - HOKIE CLUB"
+        Me.radHokieClub.UseVisualStyleBackColor = True
         '
-        'chkTomato
+        'radLobster
         '
-        Me.chkTomato.AutoSize = True
-        Me.chkTomato.Location = New System.Drawing.Point(7, 196)
-        Me.chkTomato.Name = "chkTomato"
-        Me.chkTomato.Size = New System.Drawing.Size(156, 21)
-        Me.chkTomato.TabIndex = 5
-        Me.chkTomato.Text = "$0.20 - Add Tomato"
-        Me.chkTomato.UseVisualStyleBackColor = True
+        Me.radLobster.AutoSize = True
+        Me.radLobster.Location = New System.Drawing.Point(7, 61)
+        Me.radLobster.Name = "radLobster"
+        Me.radLobster.Size = New System.Drawing.Size(145, 21)
+        Me.radLobster.TabIndex = 1
+        Me.radLobster.TabStop = True
+        Me.radLobster.Text = "$22.00 - LoBsTeR"
+        Me.radLobster.UseVisualStyleBackColor = True
+        '
+        'radRibeyeSandwich
+        '
+        Me.radRibeyeSandwich.AutoSize = True
+        Me.radRibeyeSandwich.Location = New System.Drawing.Point(7, 33)
+        Me.radRibeyeSandwich.Name = "radRibeyeSandwich"
+        Me.radRibeyeSandwich.Size = New System.Drawing.Size(186, 21)
+        Me.radRibeyeSandwich.TabIndex = 0
+        Me.radRibeyeSandwich.TabStop = True
+        Me.radRibeyeSandwich.Text = "$7.50 - Ribeye Sandwich"
+        Me.radRibeyeSandwich.UseVisualStyleBackColor = True
         '
         'btnOrder
         '
@@ -179,27 +179,16 @@ Partial Class frmWestEndOrderx
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Drinks"
         '
-        'radWater
+        'radSmoothie
         '
-        Me.radWater.AutoSize = True
-        Me.radWater.Location = New System.Drawing.Point(7, 33)
-        Me.radWater.Name = "radWater"
-        Me.radWater.Size = New System.Drawing.Size(116, 21)
-        Me.radWater.TabIndex = 0
-        Me.radWater.TabStop = True
-        Me.radWater.Text = "$0.05 - Water"
-        Me.radWater.UseVisualStyleBackColor = True
-        '
-        'radSoda
-        '
-        Me.radSoda.AutoSize = True
-        Me.radSoda.Location = New System.Drawing.Point(7, 61)
-        Me.radSoda.Name = "radSoda"
-        Me.radSoda.Size = New System.Drawing.Size(111, 21)
-        Me.radSoda.TabIndex = 1
-        Me.radSoda.TabStop = True
-        Me.radSoda.Text = "$1.25 - Soda"
-        Me.radSoda.UseVisualStyleBackColor = True
+        Me.radSmoothie.AutoSize = True
+        Me.radSmoothie.Location = New System.Drawing.Point(7, 117)
+        Me.radSmoothie.Name = "radSmoothie"
+        Me.radSmoothie.Size = New System.Drawing.Size(137, 21)
+        Me.radSmoothie.TabIndex = 3
+        Me.radSmoothie.TabStop = True
+        Me.radSmoothie.Text = "$2.50 - Smoothie"
+        Me.radSmoothie.UseVisualStyleBackColor = True
         '
         'radJuice
         '
@@ -212,16 +201,27 @@ Partial Class frmWestEndOrderx
         Me.radJuice.Text = "$1.00 - Juice"
         Me.radJuice.UseVisualStyleBackColor = True
         '
-        'radSmoothie
+        'radSoda
         '
-        Me.radSmoothie.AutoSize = True
-        Me.radSmoothie.Location = New System.Drawing.Point(7, 117)
-        Me.radSmoothie.Name = "radSmoothie"
-        Me.radSmoothie.Size = New System.Drawing.Size(137, 21)
-        Me.radSmoothie.TabIndex = 3
-        Me.radSmoothie.TabStop = True
-        Me.radSmoothie.Text = "$2.50 - Smoothie"
-        Me.radSmoothie.UseVisualStyleBackColor = True
+        Me.radSoda.AutoSize = True
+        Me.radSoda.Location = New System.Drawing.Point(7, 61)
+        Me.radSoda.Name = "radSoda"
+        Me.radSoda.Size = New System.Drawing.Size(111, 21)
+        Me.radSoda.TabIndex = 1
+        Me.radSoda.TabStop = True
+        Me.radSoda.Text = "$1.25 - Soda"
+        Me.radSoda.UseVisualStyleBackColor = True
+        '
+        'radWater
+        '
+        Me.radWater.AutoSize = True
+        Me.radWater.Location = New System.Drawing.Point(7, 33)
+        Me.radWater.Name = "radWater"
+        Me.radWater.Size = New System.Drawing.Size(116, 21)
+        Me.radWater.TabIndex = 0
+        Me.radWater.TabStop = True
+        Me.radWater.Text = "$0.05 - Water"
+        Me.radWater.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
@@ -235,16 +235,6 @@ Partial Class frmWestEndOrderx
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Sides"
         '
-        'chkFries
-        '
-        Me.chkFries.AutoSize = True
-        Me.chkFries.Location = New System.Drawing.Point(7, 33)
-        Me.chkFries.Name = "chkFries"
-        Me.chkFries.Size = New System.Drawing.Size(158, 21)
-        Me.chkFries.TabIndex = 2
-        Me.chkFries.Text = "$1.50 - French Fries"
-        Me.chkFries.UseVisualStyleBackColor = True
-        '
         'chkMozzSticks
         '
         Me.chkMozzSticks.AutoSize = True
@@ -254,6 +244,16 @@ Partial Class frmWestEndOrderx
         Me.chkMozzSticks.TabIndex = 3
         Me.chkMozzSticks.Text = "$3.00 - Mozzarella Sticks"
         Me.chkMozzSticks.UseVisualStyleBackColor = True
+        '
+        'chkFries
+        '
+        Me.chkFries.AutoSize = True
+        Me.chkFries.Location = New System.Drawing.Point(7, 33)
+        Me.chkFries.Name = "chkFries"
+        Me.chkFries.Size = New System.Drawing.Size(158, 21)
+        Me.chkFries.TabIndex = 2
+        Me.chkFries.Text = "$1.50 - French Fries"
+        Me.chkFries.UseVisualStyleBackColor = True
         '
         'lstOrderReceipt
         '
@@ -273,7 +273,7 @@ Partial Class frmWestEndOrderx
         Me.lstTotal.Size = New System.Drawing.Size(229, 52)
         Me.lstTotal.TabIndex = 8
         '
-        'frmWestEndOrder
+        'frmWestEndOrderx
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -288,7 +288,7 @@ Partial Class frmWestEndOrderx
         Me.Controls.Add(Me.btnOrder)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lblTitle)
-        Me.Name = "frmWestEndOrder"
+        Me.Name = "frmWestEndOrderx"
         Me.Text = "West End Market"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

@@ -137,9 +137,9 @@
         lstTotal.Items.Clear() 'Clears previous subtotal, tax, and total
         lstTotal.Items.Add("SUB TOTAL = " & subtotal.ToString("C")) 'Display the subtotal
         tax = subtotal * TAX_RATE
-        lstTotal.Items.Add("     TAX = " & tax.ToString("C"))
-        total = subtotal + tax
-        lstTotal.Items.Add("     TOTAL = " & total.ToString("C"))
+        'lstTotal.Items.Add("     TAX = " & tax.ToString("C"))
+        'total = subtotal + tax
+        'lstTotal.Items.Add("     TOTAL = " & total.ToString("C"))
 
         lstOrderReceipt.Items.Add("---------------")
     End Sub
@@ -150,11 +150,11 @@
         ClearCustomerSelections()
     End Sub
 
-    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
-        InitializeVariables()
-        ClearCustomerSelections()
-        ClearReceipt()
-    End Sub
+    'Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+    '    InitializeVariables()
+    '    ClearCustomerSelections()
+    '    ClearReceipt()
+    'End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
