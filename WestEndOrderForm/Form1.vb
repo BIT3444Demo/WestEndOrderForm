@@ -154,7 +154,7 @@
         InitializeVariables()
         ClearCustomerSelections()
         ClearReceipt()
-        MsgBox("Hello world")
+        MsgBox("Hello Trey")
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
