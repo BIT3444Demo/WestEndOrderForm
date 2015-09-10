@@ -121,10 +121,10 @@ Partial Class frmWestEndOrderx
         Me.radLobster.AutoSize = True
         Me.radLobster.Location = New System.Drawing.Point(7, 61)
         Me.radLobster.Name = "radLobster"
-        Me.radLobster.Size = New System.Drawing.Size(145, 21)
+        Me.radLobster.Size = New System.Drawing.Size(134, 21)
         Me.radLobster.TabIndex = 1
         Me.radLobster.TabStop = True
-        Me.radLobster.Text = "$22.00 - LoBsTeR"
+        Me.radLobster.Text = "$22.00 - Lobster"
         Me.radLobster.UseVisualStyleBackColor = True
         '
         'radRibeyeSandwich
