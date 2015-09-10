@@ -110,10 +110,10 @@ Partial Class frmWestEndOrderx
         Me.radHokieClub.AutoSize = True
         Me.radHokieClub.Location = New System.Drawing.Point(7, 89)
         Me.radHokieClub.Name = "radHokieClub"
-        Me.radHokieClub.Size = New System.Drawing.Size(160, 21)
+        Me.radHokieClub.Size = New System.Drawing.Size(146, 21)
         Me.radHokieClub.TabIndex = 2
         Me.radHokieClub.TabStop = True
-        Me.radHokieClub.Text = "$6.50 - HOKIE CLUB"
+        Me.radHokieClub.Text = "$6.50 - Hokie Club"
         Me.radHokieClub.UseVisualStyleBackColor = True
         '
         'radLobster
