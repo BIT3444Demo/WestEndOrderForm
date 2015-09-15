@@ -1,4 +1,4 @@
-﻿Public Class frmWestEndOrderx
+﻿Public Class frmWestEndOrder
 
     ' Class level constants as decimal values
     Const TAX_RATE As Decimal = 0.0875D '8.75% tax rate
@@ -134,12 +134,12 @@
     End Sub
 
     Private Sub UpdateTotal()
-        lstTotal.Items.Clear() 'Clears previous subtotal, tax, and total
-        lstTotal.Items.Add("SUB TOTAL = " & subtotal.ToString("C")) 'Display the subtotal
-        tax = subtotal * TAX_RATE
-        lstTotal.Items.Add("     TAX = " & tax.ToString("C"))
-        total = subtotal + tax
-        lstTotal.Items.Add("     TOTAL = " & total.ToString("C"))
+        lstTotal.Items.Clear()
+        lstTotal.Items.Add("SUB TOTAL = " & subtotal.ToString("C"))
+        'tax = subtotal * TAX_RATE
+        'lstTotal.Items.Add("     TAX = " & tax.ToString("C"))
+        'total = subtotal + tax
+        'lstTotal.Items.Add("     TOTAL = " & total.ToString("C"))
 
         lstOrderReceipt.Items.Add("---------------")
     End Sub
@@ -151,13 +151,13 @@
     End Sub
 
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
-        InitializeVariables()
-        ClearCustomerSelections()
-        ClearReceipt()
-        MsgBox("Hello world")
+        'InitializeVariables()
+        'ClearCustomerSelections()
+        'ClearReceipt()
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
     End Sub
+
 End Class

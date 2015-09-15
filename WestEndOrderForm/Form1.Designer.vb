@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class frmWestEndOrderx
+Partial Class frmWestEndOrder
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -110,10 +110,10 @@ Partial Class frmWestEndOrderx
         Me.radHokieClub.AutoSize = True
         Me.radHokieClub.Location = New System.Drawing.Point(7, 89)
         Me.radHokieClub.Name = "radHokieClub"
-        Me.radHokieClub.Size = New System.Drawing.Size(146, 21)
+        Me.radHokieClub.Size = New System.Drawing.Size(160, 21)
         Me.radHokieClub.TabIndex = 2
         Me.radHokieClub.TabStop = True
-        Me.radHokieClub.Text = "$6.50 - Hokie Club"
+        Me.radHokieClub.Text = "$6.50 - HOKIE CLUB"
         Me.radHokieClub.UseVisualStyleBackColor = True
         '
         'radLobster
@@ -121,10 +121,10 @@ Partial Class frmWestEndOrderx
         Me.radLobster.AutoSize = True
         Me.radLobster.Location = New System.Drawing.Point(7, 61)
         Me.radLobster.Name = "radLobster"
-        Me.radLobster.Size = New System.Drawing.Size(134, 21)
+        Me.radLobster.Size = New System.Drawing.Size(145, 21)
         Me.radLobster.TabIndex = 1
         Me.radLobster.TabStop = True
-        Me.radLobster.Text = "$22.00 - Lobster"
+        Me.radLobster.Text = "$22.00 - LoBsTeR"
         Me.radLobster.UseVisualStyleBackColor = True
         '
         'radRibeyeSandwich
@@ -273,7 +273,7 @@ Partial Class frmWestEndOrderx
         Me.lstTotal.Size = New System.Drawing.Size(229, 52)
         Me.lstTotal.TabIndex = 8
         '
-        'frmWestEndOrderx
+        'frmWestEndOrder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -288,7 +288,7 @@ Partial Class frmWestEndOrderx
         Me.Controls.Add(Me.btnOrder)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.lblTitle)
-        Me.Name = "frmWestEndOrderx"
+        Me.Name = "frmWestEndOrder"
         Me.Text = "West End Market"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
